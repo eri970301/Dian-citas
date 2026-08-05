@@ -1,3 +1,9 @@
+from notifier import TelegramNotifier
+
+telegram = TelegramNotifier()
+
+telegram.send("✅ GitHub Actions está funcionando correctamente.")
+"""
 from dian_checker import DianChecker
 from notifier import TelegramNotifier
 
@@ -25,3 +31,4 @@ except Exception as ex:
     )
 
     raise
+    """
